@@ -1,0 +1,88 @@
+{
+  "mod_elements": [
+    {
+      "name": "ImmortalityActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/bagelman/immortalitypotion/procedures/ImmortalityActiveTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Immortality",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bagelman/immortalitypotion/potion/ImmortalityMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ImmortalityPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality_potion",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.immortality_potion.immortality": "Immortality",
+      "item.minecraft.lingering_potion.effect.immortality_potion": "Lingering Potion of Immortality",
+      "item.minecraft.potion.effect.immortality_potion": "Potion of Immortality",
+      "item.minecraft.tipped_arrow.effect.immortality_potion": "Arrow of Immortality",
+      "item.minecraft.splash_potion.effect.immortality_potion": "Splash Potion of Immortality"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/bagelman/immortalitypotion/init/ImmortalityPotionModMobEffects.java",
+      "src/main/java/net/bagelman/immortalitypotion/init/ImmortalityPotionModPotions.java",
+      "src/main/java/net/bagelman/immortalitypotion/ImmortalityPotionMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "immortality_potion",
+    "modName": "Potion Of Immortality",
+    "version": "1.0.0",
+    "author": "Bagelman47",
+    "websiteURL": "https://github.com/Bagelman47",
+    "license": "DSMSLv3.1 (DON\u0027T SNATCH MA STUFF LISENSE v3.1)",
+    "serverSideOnly": false,
+    "modPicture": "immortality",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "i made this using mcreator so credit to mcreator for making the software that makes this mod possible for me :3",
+    "modElementsPackage": "net.bagelman.immortalitypotion"
+  },
+  "mcreatorVersion": 202600114619
+}
